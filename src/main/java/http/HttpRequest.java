@@ -22,7 +22,9 @@ public class HttpRequest extends AHttpRequest{
             wr.close();
         }
     }
-
+    
+    /**
+    */
     private void setUpConnection() throws Exception {
         if (connection == null)
             throw new Exception("Null connection!");
